@@ -1,0 +1,85 @@
+body{
+  background-color: wheat
+  ;
+}
+.nav{
+  background-color: slategrey;
+  height: 140px;
+  border-color: black;
+  border-style: solid;
+  /* flex-direction: ; */
+
+/* display: flex;  justify-content: flex-end; */
+/* align-items: flex-end; */
+
+}
+.image{
+  background-color: aquamarine;
+  text-align: center;
+  height: 120px;
+
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+}
+table{
+  text-align: center;
+  background-color: thistle;
+  height: 70px;
+  width: 550px;
+  border-collapse: ;
+  border-color: black;
+  border-style: solid;
+ position: absolute;
+ top: 12%;
+ left: 50%;
+
+}
+td {
+  
+  border-right: 2px solid black; 
+  padding: 10px;++
+  text-align: center;
+}
+td:last-child{
+  border-right: none;
+}
+.down{
+  background-color: burlywood;
+  height: 150px;
+  width: 350px;
+   border-color: black;
+   border-style: solid;
+margin: 50px auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.big{
+  height:240px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  padding: 25px;
+
+}
+.child1{
+  background-color: thistle;
+  border-color: black;
+  border-style: solid;
+  height: 250px;
+  width: 520px;
+}
+.child2{
+  background-color: thistle;
+
+  border-color: black;
+  border-style: solid;
+  height: 250px;
+  width: 520px;
+}
